@@ -7,11 +7,9 @@ from selenium.webdriver.common.keys import Keys
 
 load_dotenv()
 # load, get, and set env variables from .env file
+URL = os.environ.get("URL")
 ZIP_CODE_PW = os.environ.get("ZIP_CODE_PW")
 ZIP_CODE_USERNAME = os.environ.get("ZIP_CODE_USERNAME")
-
-# url you wish to access
-URL = "https://school.zipcode.rocks/"
 
 # create a new Chrome session
 browser = webdriver.Chrome()
