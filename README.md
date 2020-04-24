@@ -25,4 +25,4 @@ As a backup, you can add it to cron jobs that would run on specific dates and ti
 *55 8 * * 1-5 login_zcw* 
  
  **Future Features**  
-*Screenshot feature in the workings, that takes and saves a screenshot of the broswer once attendacne is submitted for extra assurance.*
+*Screenshot feature in the workings, that takes and saves a screenshot of the browser once attendance is submitted for extra assurance.*
