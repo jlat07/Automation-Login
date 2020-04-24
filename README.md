@@ -7,9 +7,11 @@ v1 uses the chrome browser, that opens up on screen and carries out the process.
 v2 uses a headless browser, that carries out the process in the background.
 
 Set up a .bash/.zshrc alias to run the script from the terminal easily.
+
 *alias login_zcw='python <Path-to-Attendance_Script_v2_Headless.py>'*
 
 Then added a cron job, as a back up that would run the scrip on specific dates and times as backup.
+
 *55 7 * * 1-5 login_zcw*
 
 
