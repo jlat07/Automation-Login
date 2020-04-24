@@ -11,14 +11,18 @@ This login script came about while in my coding boot camp during the Covid-19 st
 *username: "Johnny@email.com"*  
 *password: "@pples33d"*  
 
+**The script uses Selenium Webdriver to automate the process:**  
 v1 uses the chrome browser, that opens up on the screen and carries out the process.  
-v2 uses a headless browser, that carries out the process in the background.
+v2 uses a headless browser, that carries out the process in the background.  
 
+**Adding terminal functionality**  
 Set up a .bash/.zshrc alias to run the script from the terminal easily.  
-*alias login_zcw="python <Path-to-Attendance_Script_v2_Headless.py>"*
+*alias login_zcw="python <Path-to-Attendance_Script_v2_Headless.py>"*  
 
-As a backup, you can add it to cron jobs that would run on specific dates and times as backup. I set mine up for 7:55 am and 8:55 am, M-F. (Remember computer must be and awake for cron jobs to run)   
+**Cron Job**  
+As a backup, you can add it to cron jobs that would run on specific dates and times purely as a backup. I set mine up for 7:55 am and 8:55 am, M-F. (Remember computer must be and awake for cron jobs to run)   
 *55 7 * * 1-5 login_zcw*  
 *55 8 * * 1-5 login_zcw* 
  
+ **Future Features**  
 *Screenshot feature in the workings, that saves an image once logged in for extra assurance.*
