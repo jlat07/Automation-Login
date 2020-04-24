@@ -1,15 +1,15 @@
 # Automation-Login
 ![Login GIF](https://media.giphy.com/media/kEhjZr7aMUoVVV3eOt/giphy.gif)  
 
-The goal is to have an Automation Library to help carryout repetitive task with ease to save time or also be utilized as a fail safe in the event you forget to do it.
+The goal is to have an Automation Library to help carryout repetitive task with ease to save time or also be utilized as a fail safe in the event you forget.
 
 This login script came about while in my coding boot camp during the Covid-19 stay at home era. Even though we were working from home remotely, we still had to sign into our portal, and click an attendance button daily. Sounds easy enough, but if we can automate the process to avoid forgetting, why not.
-
+---
 Set environment variables in .env file  
-*username: 'Johnny@gmail.com'*
+*username: 'Johnny@gmail.com'*  
 *password: '@pples33d'*  
 
-v1 uses the chrome browser, that opens up on screen and carries out the process.
+v1 uses the chrome browser, that opens up on screen and carries out the process.  
 v2 uses a headless browser, that carries out the process in the background.
 
 Set up a .bash/.zshrc alias to run the script from the terminal easily.  
