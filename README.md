@@ -1,5 +1,5 @@
 # Automation-Login
-![Login GIF](https://gph.is/g/ZkRV6v8)  
+![Login GIF](https://media.giphy.com/media/kEhjZr7aMUoVVV3eOt/giphy.gif)  
 
 The goal is to have an Automation Library to help carryout repetitive task with ease to save time or also be utilized as a fail safe in the event you forget to do it.
 
